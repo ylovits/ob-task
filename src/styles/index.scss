@@ -1,0 +1,10 @@
+// Overriding bootstrap default variables before loading bootstrap
+@import "./overrides";
+@import "node_modules/bootstrap/scss/bootstrap";
+// Custom Styles
+@import "./mixins";
+@import "./global";
+@import "./filters";
+@import "./header";
+@import "./products";
+@import "./cart";

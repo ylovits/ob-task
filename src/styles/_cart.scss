@@ -1,0 +1,24 @@
+.cart {
+  overflow-x: hidden;
+  z-index: 1;
+  &-total {
+    z-index: 1;
+  }
+  &-count {
+    right: 10px;
+    bottom: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 0.8rem;
+  }
+  .degrade {
+    bottom: 6rem;
+    height: 7rem;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+}

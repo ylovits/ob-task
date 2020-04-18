@@ -1,0 +1,27 @@
+@mixin pulsing {
+  animation: pulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+
+@mixin fast-transition {
+  transition: all 0.1s ease-in-out;
+}
+
+@mixin med-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+@mixin slow-transition {
+  transition: all 0.7s ease-in-out;
+}

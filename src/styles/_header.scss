@@ -1,0 +1,29 @@
+.header {
+  height: 4rem;
+  &-inner {
+    .ob-logo {
+      width: 250px;
+      max-width: 80%;
+      img {
+        @include fast-transition;
+        opacity: 0.4;
+      }
+      &:hover img {
+        opacity: 0.3;
+      }
+    }
+    .cart-button {
+      height: 4rem;
+      width: 4rem;
+      right: 0;
+      top: 0;
+      img {
+        @include fast-transition;
+        opacity: 0.4;
+      }
+      &:hover img {
+        opacity: 0.3;
+      }
+    }
+  }
+}

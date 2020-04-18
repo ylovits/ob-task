@@ -1,0 +1,11 @@
+.clickable {
+  cursor: pointer;
+}
+
+.loading {
+  z-index: 2;
+  &-inner {
+    max-width: 400px;
+    @include pulsing;
+  }
+}

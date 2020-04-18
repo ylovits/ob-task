@@ -1,0 +1,21 @@
+.filters {
+  .filter {
+    &-item,
+    &-name {
+      white-space: nowrap;
+    }
+    &-name {
+      width: 7rem;
+    }
+    &-items {
+      width: calc(100% - 7rem);
+    }
+    &-item {
+      min-width: 7rem;
+      @include fast-transition;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

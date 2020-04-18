@@ -1,0 +1,27 @@
+.products {
+  .product {
+    .seperator {
+    }
+    &-title {
+    }
+    &-size {
+    }
+    &-color {
+      flex-grow: 1;
+    }
+    &-image {
+    }
+    .out-of-stock {
+    }
+    &-price {
+      @include fast-transition;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+    &-labels {
+      bottom: 1rem;
+      right: 1rem;
+    }
+  }
+}
